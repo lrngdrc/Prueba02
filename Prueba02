@@ -1,5 +1,7 @@
 # EJEMPLO IF-ELSE , CALIFICACIONES
 
+# Inicio del ejercicio.
+
 print("Sistema para calcular el promedio de un alumno.")
 nombre = input("¿Para comenzar, cuál es tu nombre?: ")
 
