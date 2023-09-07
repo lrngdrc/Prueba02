@@ -1,0 +1,20 @@
+# EJEMPLO IF-ELSE , CALIFICACIONES
+
+print("Sistema para calcular el promedio de un alumno.")
+nombre = input("¿Para comenzar, cuál es tu nombre?: ")
+
+# En este sistema de calificaciones, usaremos float para admitir decimales
+matematicas = float(input(nombre + ", ¿cuál es tu promedio en Matemáticas?: "))
+quimica = float(input(nombre + ", ¿cuál es tu promedio en Química?: "))
+biologia = float(input(nombre + ", ¿cuál es tu promedio en Biología?: "))
+
+promedio = (matematicas + quimica + biologia) / 3
+
+# Round se utiliza para ejecutar la cantidad de decimales que queremos ver
+if promedio >= 6:
+    print('¡Felicidades, ' + nombre + '! Aprobaste con un promedio de:', round(promedio,1))
+else:
+    print("Lo sentimos, " + nombre + ". Reprobaste con un promedio de: ", round(promedio,1))
+
+print("Fin.")
+
