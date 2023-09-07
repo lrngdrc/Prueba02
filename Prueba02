@@ -3,6 +3,8 @@
 print("Sistema para calcular el promedio de un alumno.")
 nombre = input("¿Para comenzar, cuál es tu nombre?: ")
 
+# Hola.
+
 # En este sistema de calificaciones, usaremos float para admitir decimales
 matematicas = float(input(nombre + ", ¿cuál es tu promedio en Matemáticas?: "))
 quimica = float(input(nombre + ", ¿cuál es tu promedio en Química?: "))
